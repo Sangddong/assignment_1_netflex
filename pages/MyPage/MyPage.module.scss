@@ -1,0 +1,10 @@
+.wrapper{
+    text-align: center;
+
+    >form{
+        margin-bottom: 50px;
+    }
+    >form >label> input{
+        margin-left:10px;
+    }
+}

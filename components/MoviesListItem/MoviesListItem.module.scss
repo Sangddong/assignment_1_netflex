@@ -1,0 +1,18 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: white;
+
+  row-gap: 1.5rem;
+
+  > h6 {
+    font-size: 21px;
+    font-weight: 800;
+    margin: 0;
+  }
+}
+.wrapper>img:hover{
+  transform: scale(1.1);
+  transition: all 0.5 ease-in-out;
+}
